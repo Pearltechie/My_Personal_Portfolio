@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pelumi Idowu - Frontend Web Developer Portfolio">
+  <meta name="keywords" content="Pelumi Idowu, frontend developer, portfolio, web development">
+  <meta name="author" content="Pelumi Idowu">
+  <title>Pelumi Idowu | Frontend Web Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="profile-picture">
+        <img src="my pics.jpg" alt="Pelumi Idowu" class="hero-image">
+      </div>
+      <h1 class="logo">Pelumi Idowu</h1>
+      <p class="typing-text"></p>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Hi, I'm Pelumi Idowu</h2>
+      <p>A Frontend Web Developer passionate about creating visually stunning and user-friendly websites.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a dedicated frontend web developer with a passion for crafting beautiful and functional websites. 
+        I specialize in turning ideas into interactive digital experiences. When I'm not coding, I enjoy exploring design trends and learning new technologies.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>Project 1: MODERN WEBSITE</h3>
+        <img src="website.jpg" alt="Portfolio Screenshot" class="project-screenshot">
+        <p>A modern, fully responsive  website showcasing my skills.</p>
+      </div>
+  
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>Project 2: LIVE DEMO</h3>
+        <video class="project-video" controls>
+          <source src="index.html - Alx_simple_quiz - Visual Studio Code 2025-01-17 12-36-41.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>Highlight of how I structured and styled a website.</p>
+      </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="html icon.png" alt="HTML" class="skill-icon">
+        <h3>HTML</h3>
+        <div class="progress-bar">
+          <div class="progress html"></div>
+          <div class="skill-bar" data-skill="90"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <img src="css icon.jpeg" alt="CSS" class="skill-icon">
+        <h3>CSS</h3>
+        <div class="progress-bar">
+          <div class="progress css"></div>
+          <div class="skill-bar" data-skill="85"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <img src="javascript icon.jpeg" alt="JavaScript" class="skill-icon">
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <div class="progress javascript"></div>
+          <div class="skill-bar" data-skill="80"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <img src="react icon.jpeg" alt="React" class="skill-icon">
+        <h3>React</h3>
+        <div class="progress-bar">
+          <div class="progress react"></div>
+          <div class="skill-bar" data-skill="75"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <img src="bootstrap icon.jpeg" alt="Bootstrap" class="skill-icon">
+        <h3>Bootstrap</h3>
+        <div class="progress-bar">
+          <div class="progress bootstrap"></div>
+          <div class="skill-bar" data-skill="70"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <button id="back-to-top">↑</button>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="https://formspree.io/f/mldgevwa" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Pelumi Idowu. All Rights Reserved.</p>
+      <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/
+            idowu-pelumi" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/Pearltechie/Techie-hub.git" target="_blank">GitHub</a></li>
+        <li><a href="https://t.me/Pearltechie" target="_blank">Telegram</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
