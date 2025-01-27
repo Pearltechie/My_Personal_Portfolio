@@ -164,7 +164,7 @@
     font-size: 1.3rem;
     font-weight: bold;
     border: none;
-    background: linear-gradient(90deg, #ff65a3, #ffc8f0);
+    background: #e91e63;
     color: #121212;
     border-radius: 50px;
     cursor: pointer;
@@ -225,7 +225,7 @@
     padding: 2.5rem;
     background: linear-gradient(145deg, #222, #333);
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(233, 30, 99, 0.4);
+    box-shadow: 0 20px 40px rgba(255, 101, 163, 0.9);
     color: #fff;
     text-align: left;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -457,7 +457,7 @@
   #contact-form button {
     padding: 0.8rem;
     font-size: 1.2rem;
-    background: linear-gradient(90deg, #673ab7, #ff4081);
+    background: #e91e63;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -466,7 +466,7 @@
   }
   
   #contact-form button:hover {
-    background: linear-gradient(90deg, #ff4081, #673ab7);
+    background: #e91e63;
   }
   
   
