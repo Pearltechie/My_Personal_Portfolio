@@ -493,11 +493,10 @@
   .footer a:hover {
     color: #ff7eb3;
   }
-   @media screen and (min-width: 430px) and (max-width: 932px) {
+   @media screen  (max-width: 769px) {
     .nav-links {
       display: inline-block;
       flex: wrap;
-      gap:1rem;
     }
   }
   
